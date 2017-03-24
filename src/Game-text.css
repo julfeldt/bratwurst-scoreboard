@@ -1,0 +1,15 @@
+.game-text {
+	display: flex;
+	color: #777;
+	font-family: "Open Sans";
+
+}
+
+p {
+	text-align: center;
+	flex: 1;
+	font-size: 3rem;
+	font-weight: bold;
+	padding: 5px;
+	background-color: #E2E3DD;
+}

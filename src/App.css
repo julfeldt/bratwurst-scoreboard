@@ -1,0 +1,59 @@
+:root {
+  --bg-color: #97B8C2;
+  --button-color: #D35C37;
+  --button-disabled-color: #777;
+  --header-bg-color: #D35C37;
+  --header-color: #E2E3DD;
+  --border-color: #777;
+  --text-color: #777;
+  --player-count: #D35C37;
+  --player-name: #E2E3DD;
+  --placeholder-name: #E2E3DD;
+  --game-text: #E2E3DD;
+  --main-font: "Open Sans";
+}
+
+body {
+	font-family: "Open Sans";
+	background-color: #97B8C2;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	height: 55vh;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.use-landscape {
+  display: none;
+}
+
+@media screen and (orientation: portrait) {
+   .wrapper {
+   	  display: none;
+   }
+
+   .use-landscape {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: fixed;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+   }
+
+   .ipad {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+     -webkit-animation: spin 4s linear infinite;
+   }
+
+   @-webkit-keyframes spin { 50% { -webkit-transform: rotateZ(90deg); } }
+}

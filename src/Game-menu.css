@@ -1,0 +1,87 @@
+.player-names {
+	display: flex;
+	flex-direction: column;
+	height: 60vh;
+	align-items: center;
+}
+
+.player-names > input {
+	flex: 1;
+	text-align: center;
+	width: 300px;
+	font-family: "Open Sans";
+	font-size: 2rem;
+	margin: 30px;
+	border:none; /* Get rid of the browser's styling */
+    border-bottom:1px solid #777; /* Add your own border */
+    background-color: #97B8C2;
+    color: #E2E3DD;
+    margin-top: 10px;
+}
+
+.player-names ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	color: #E2E3DD;
+}
+
+::-moz-placeholder {
+   	color: #E2E3DD;
+}
+
+.player-names > input[type=text]:focus {
+    outline: none;
+}
+
+.player-names > input[type="text"]:disabled {
+    visibility: hidden;
+}
+
+.padding {
+	height: 20vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.player-count {
+	align-items: center;
+	font-family: "Open Sans";
+	color: #D35C37;
+	font-weight: bold;
+	font-size: 3.5rem;
+	justify-content: center;
+}
+
+
+.buttons {
+	align-items: center;
+	justify-content: center;
+}
+
+.buttons > button {
+	background-color: #97B8C2;
+	border: none;
+	font-size: 2rem;
+	color: #D35C37;
+}
+
+.buttons > button:disabled {
+    color: #777;
+}
+
+.buttons > button:focus {
+    border: none;
+    outline: none;
+}
+
+/* Generalize */
+
+.start-game-button {
+	width: 150px;
+	height: 80px;
+	margin: 10px;
+}
+
+.player-count-button {
+	width: 150px;
+	height: 80px;
+	margin: 10px;
+}

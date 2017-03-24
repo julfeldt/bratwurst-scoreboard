@@ -1,0 +1,35 @@
+footer {
+	display: flex;
+	margin-top: 30px;
+	text-align: center;
+	align-items: center;
+	padding: 10px;
+}
+
+footer button {
+	width: 200px;
+	height: 70px;
+	color: #D35C37;
+	font-size: 2.0rem;
+	background-color: #97B8C2;
+	border: none;
+}
+
+footer button:disabled {
+    color: #777;
+}
+
+footer button:focus {
+    border: none;
+    outline: none;
+}
+
+.menu-button {
+	flex: 1;
+}
+
+.round-next {
+}
+
+.round-previous {
+}

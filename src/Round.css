@@ -1,0 +1,134 @@
+.round-box {
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+	width: 50%;
+	height: 50%;
+}
+
+.round-main {
+	border: 2px solid #777;
+	width: 450px;
+	height: 110px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 5px;
+}
+
+.header {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #D35C37;
+	border-bottom: 2px solid #777;
+	border-radius: 3px 0 0 0;
+}
+
+.header > span {
+	flex: 1;
+	text-align: center;
+	color: #E2E3DD;
+	font-family: "Open Sans";
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+.round {
+	display: flex;
+	height: 75%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.round > * {
+	flex: 1;
+	text-align: center;
+	color: #777;
+	font-size: 1.0rem;
+	font-weight: bold;
+
+}
+
+.round select {
+	height: 40%;
+	margin: 5px;
+	text-indent : 1.3vw;
+}
+
+select:active, select:hover {
+}
+
+.player-name {
+	font-family: "Open Sans";
+	font-size: 1.5rem;
+	padding: 10px;
+	flex: 6;
+}
+
+.player-score {
+	font-family: "Open Sans";
+	font-weight: bold;
+	font-size: 3.5rem;
+	flex: 1;
+	text-align: center;
+	padding-right: 25px;
+}
+
+.player-line {
+	display: flex;
+	width: 450px;
+	color: #777;
+	align-items: baseline;
+}
+
+/* Round score */
+.round-score {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #777;
+	font-family: "Open Sans";
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.round-id {
+	font-family: "Open Sans";
+	font-size: 1.5rem;
+}
+
+.positive {
+}
+
+.negative {
+}
+
+.thumbs {
+  position: absolute;
+  margin-left: 155px;
+  margin-top: -62px;
+  color: #777;
+}
+
+.hide {
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.5);
+}
+
+.pop {
+  transition: transform 0.2s ease-in-out;
+}
+
+select {
+  text-align: center;
+  text-align-last: center;
+  /* webkit*/
+}
+option {
+  text-align: left;
+  /* reset to left*/
+}
