@@ -2,7 +2,7 @@ import React from 'react';
 import {mount,shallow} from 'enzyme';
 import {Board} from '../src/App';
 import {Round} from '../src/Round';
-import { generateBoardState } from '../src/helper';
+import { generateBoardState } from '../src/Helper';
 
 const roundKey = "13-d";
 export let roundId = 13;

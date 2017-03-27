@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Fixture from "../fixtures";
-import { generateBoardState } from '../../src/helper';
+import { generateBoardState } from '../../src/Helper';
 
 let actual;
 let estimate;

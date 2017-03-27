@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Fixture from "../fixtures";
-import {GameText} from '../../src/game-text';
+import {GameText} from '../../src/Game-text';
 import {mount} from 'enzyme';
 
 let { seq,players,rounds,rows } = Fixture;
